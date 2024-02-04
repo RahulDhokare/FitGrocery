@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import Dropdown from 'react-bootstrap/Dropdown'
-import logo from "../../ASSETS/grocery-store-logo-designstore-template-260nw-1735469192.webp";
+import logo from "../../ASSETS/grocery-logo-vector-template_180868-2480.avif";
 const Navbar = () => {
   const [cartquantity, setcartquantity] = useState(0);
   return (
@@ -71,7 +71,7 @@ const Navbar = () => {
       <div className="s2">
       <Dropdown>
       <Dropdown.Toggle variant="" id="dropdown-basic">
-        categreis
+        Categreis
       </Dropdown.Toggle>
 
       <Dropdown.Menu>
